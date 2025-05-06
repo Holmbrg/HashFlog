@@ -5,7 +5,7 @@ File-based credential vault: SHA-256 email IDs, bcrypt-salted passwords, each re
 
 ## Highlights
 - **No database required**: two runtime files (`users.log`, `users.idx`)
-- **Constant-time look-ups**: one disk seek and decrypt per login, even with ~1 M + users
+- **Constant-time look-ups**: one disk seek and decrypt per login, even with ~1M+ users
 - **Crash-safe**: append-only design; optional compactor rewrites a slim log off-peak
 - **Portable**: works anywhere Python runs; depends only on `bcrypt` and `cryptography`
 - **MIT-licensed**: permissive for commercial or personal use
