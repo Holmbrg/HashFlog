@@ -1,8 +1,8 @@
 """
-encryption -> __init__.py
+HashFlog -> __init__.py
 
-Initializes modules under 'encryption' for import
-use in other modules
+Initializes modules under package 'Hashflog' for 
+import in other modules
 """
 
 import data
