@@ -1,8 +1,8 @@
 """
-HashFlog -> __init__.py
+__init__.py
 
-Initializes modules under package 'Hashflog' for 
-import in other modules
+Initializes modules and sub-packages in the
+repository 'HashFlog' on GitHub.
 """
 
 import data
