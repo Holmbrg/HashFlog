@@ -3,6 +3,8 @@ File-based credential vault: SHA-256 email IDs, bcrypt-salted passwords, each re
 
 **HashFlog** is a file-based credential vault that stores every user record in three concentric security layers—SHA-256 e-mail digests, bcrypt-salted passwords, and Fernet encryption—written to a single append-only log with a compact index.
 
+This program is essentially made to avoid any brand databases that might charge for such services.
+
 ## Highlights
 - **No database required**: two runtime files (`users.log`, `users.idx`)
 - **Constant-time look-ups**: one disk seek and decrypt per login, even with ~1M+ users
