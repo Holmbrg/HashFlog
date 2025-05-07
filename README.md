@@ -19,3 +19,6 @@ File-based credential vault: SHA-256 email IDs, bcrypt-salted passwords, each re
 
 ### Setup note
 - Generate fernet and store as environment variable permanently under name 'FILE_ENCRYPTION_KEY', to use this package.
+
+## Future plans
+- Add --rebuild-index tool.
