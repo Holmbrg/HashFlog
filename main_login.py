@@ -10,7 +10,7 @@ Stdout → {"valid": true/false}
 
 import json
 import sys
-from hashflog import UserStore
+from hashflog.store import UserStore
 
 
 def main() -> None:
