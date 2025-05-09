@@ -10,7 +10,7 @@ Prints a JSON object to stdout so other processes can parse it.
 
 import json
 import sys
-from HashFlog.store import UserStore
+from hashflog.store import UserStore
 
 
 def main() -> None:
