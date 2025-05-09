@@ -5,7 +5,6 @@ Initializes modules and sub-packages in the
 repository 'HashFlog' on GitHub.
 """
 
-import hashflog
 import main_login
 import main_register
 
